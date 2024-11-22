@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: rgb(29, 29, 29);
+   }
+
+main{
+  min-width: 320px;
+  max-width: 800px;
+  margin: auto;
+}
+ nav {
+   background-color: black;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    padding: 16px;    
+    font-family:"Arvo", bold;
+    
+ }
+ 
+ a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+ }
+
+ h1 {
+      text-align: center;
+      justify-content: space-between;
+ }
+
+ *{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+ }
+
+   header { 
+    text-align:center;
+    background: rgb(0, 0, 0);
+    height: 185px;
+    padding-top: 62px;
+  }
+ #img1{
+   justify-content: flex-start;
+   float: left;
+   width: 235px;
+   position: absolute;
+   
+ }
+
+   header span{
+      font-size: 50px;
+      color: white;
+      font-style: "Arvo", serif;
+      margin: auto;
+   }
+
+  h3{
+      text-align: center;
+  }
+
+  p {
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+    font-family: "Arvo", normal;
+  }
+  div {
+   word-spacing: 130px;  
+  }
+nav a:hover {
+   background-color: rgb(125, 121, 121);
+   border-radius: 20px;
+   padding: 5px;
+   transition-duration: 0.3s;
+}
+h4 {
+  text-align: center;
+}
+section {
+  margin-left: 400px;
+}
+section div {
+  margin-left: 170px;
+  margin-top: -150px;
+}
+div h5 {
+  margin-left: 630px;
+  margin-top: -118px;
+}
+div h5 p {
+  margin-left: 80px;
+  margin-top: -13px;
+}
+h6 p {
+  margin-left: 10px;
+  word-spacing: 4px;
+  font-family: "Arvo", serif;
+  font-weight: 500;
+  font-style: bold;
+}
+h2 {
+  text-align: center;
+}
+
+.hero{
+  display: flex;
+  width: 170%;
+  height: 1200px;
+  margin-top: 100px;
+  margin-left: -280px;
+  margin-right: 100px;
+  justify-content: center;
+}
+
+.strong{
+  font-size: 70px;
+  font-family: "Arvo", serif;
+  font-weight: bold;
+}
+
+.imagem{
+  display: flex;
+  width: 35%;
+  height: 340px;
+  margin-top: 290px;
+  margin-left: 40px;
+  margin-right: 30px;
+  justify-content: center;
+  border-radius: 20px;
+}
+.texto{
+  width: 93%;
+  height: 200px;
+  margin-top: 35px;
+  margin-right: 80px;
+  margin-left: -440px;
+  justify-content: flex-start;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+.texto2{
+  width: 60%;
+  height: 340px;
+  margin-top: 75px;
+  margin-right: -900px;
+  margin-left: 500px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  word-spacing: 5px;
+}
+
+
+.texto3{
+  width: 60%;
+  height: 345px;
+  margin-top: 100px;
+  margin-right: -900px;
+  margin-left: 500px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+.dinheiro{
+  display: flex;
+  border: 1px solid rgb(0, 0, 0);
+  width: 98%;
+  height: 1100px;
+  margin-left: 14px;
+  text-align: center;
+}
+.bitcoin{
+  width: 40%;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 50px;
+  border: 1px solid rgb(255, 255, 255);
+}
+.dolar{
+  width: 40%;
+  height: 300px;
+  margin-top: -300px;
+  margin-left: 775px;
+  border: 1px solid rgb(255, 255, 255);
+  justify-content: center;
+}
+
+strong h2 {
+  word-spacing: 5px;
+}
+h2 strong{
+  color: white;
+}
+span h2 {
+  word-spacing: 5px;
+  font-family: "Arvo", serif;
+  font-weight: 900;
+  font-style: bold;
+  color: rgb(0, 0, 0);
+}
+.finanças{
+  justify-content: center;
+  padding-left:110px;
+  padding-right: -40px;
+  margin-left: -300px;
+}
+#dolar {
+  text-align: center;
+}
+.imglink{
+  display: flex;
+  width: 41%;
+  height: 340px;
+  margin-top: -380px;
+  margin-left: -75px;
+  margin-right: 30px;
+  justify-content: center;
+}
+footer {
+  background-color: black;
+  color: rgb(0, 0, 0);
+  padding: 15px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-section {
+  flex: 100;
+  margin: 20px;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  color: white;
+}
+
+.footer-section p, 
+.footer-section ul, 
+.footer-section li, 
+.footer-section a {
+  font-size: 14px;
+  line-height: 2;
+  text-decoration: inline;
+  color: white;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 20px;
+  color: white
+}
+#aumento {
+  margin-top: 200px;
+ margin-left: -500px;
+}
+.footer-botom p{
+  color: white;
+  justify-content: center;
+  word-spacing: 5px;
+  margin-top: 250px;
+}
+div h3 p {
+  word-spacing: 5px;
+  margin-top: -850px;
+  margin-left: -100px;
+}
+div h1 p {
+  word-spacing: 5px;
+  margin-left: 450px;
+}
+div img {
+  margin-left: 50px;
+}
+
+section {
+  background-image: url("img/fundo.jpg");
+}
+.whats{
+  padding-right: 500px;
+  margin-left: 50px;
+}
